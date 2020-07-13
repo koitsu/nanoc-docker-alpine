@@ -70,6 +70,7 @@ exec docker run --rm -it \
   -u $(id -u):$(id -g) \
   -v $PWD:/app \
   -p 3000:3000 \
+  -p 35729:35729 \
   nanoc-docker-alpine:latest nanoc view -L --host 0.0.0.0
 ```
 
