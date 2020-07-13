@@ -19,6 +19,7 @@ I haven't taken the time to figure out how to get this onto DockerHub.  Sorry.
   * [adsf](https://rubygems.org/gems/adsf) latest
   * [adsf-live](https://rubygems.org/gems/adsf-live) latest
   * [kramdown](https://rubygems.org/gems/kramdown) latest
+  * [nokogiri](https://rubygems.org/gems/kramdown) latest
   * [rouge](https://rubygems.org/gems/rouge) latest
   * [sass](https://rubygems.org/gems/sass) latest
 
