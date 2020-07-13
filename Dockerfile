@@ -21,4 +21,5 @@ RUN set -e -x \
 USER nanoc:nanoc
 WORKDIR /app
 EXPOSE 3000
+EXPOSE 35729
 CMD ["nanoc"]

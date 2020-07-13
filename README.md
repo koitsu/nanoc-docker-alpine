@@ -11,7 +11,9 @@ I haven't taken the time to figure out how to get this onto DockerHub.  Sorry.
 * Base image: [ruby:2.7.1-alpine3.12](https://hub.docker.com/_/ruby)
 * Container directory: `/app`
 * Container UID/GID: `1000:1000`
-* Container exposed TCP port: 3000
+* Container exposed ports:
+  * 3000/tcp (nanoc)
+  * 35729/tcp (rack-livereload WebSockets)
 * Additional programs: `bash`, `curl`, `git`, `wget`
 * Additional packages via RubyGems:
   * [adsf](https://rubygems.org/gems/adsf) latest
