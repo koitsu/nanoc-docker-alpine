@@ -14,7 +14,7 @@ RUN set -e -x \
 && apk add bash curl git wget \
 && apk add --virtual build-deps build-base ruby-dev \
 && gem install nanoc -v 4.11.18 \
-&& gem install adsf kramdown rouge sass \
+&& gem install adsf adsf-live kramdown rouge sass \
 && apk del --purge build-deps \
 && rm -fr /var/cache/apk/*
 
